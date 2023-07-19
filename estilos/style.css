@@ -67,12 +67,30 @@ form > div.espaco{
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.espaco > label{
     display: none;
+}
+
+div.espaco > i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.espaco > input{
+    background-color: var(--color1);
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-12px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit]{
